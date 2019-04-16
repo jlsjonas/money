@@ -62,15 +62,15 @@ export default {
         },
         positive: {
             type: String,
-            default: '%s %v',
+            default: '%s\xa0%v',
         },
         negative: {
             type: String,
-            default: '%s (%v)',
+            default: '%s\xa0(%v)',
         },
         zero: {
             type: String,
-            default: '%s --',
+            default: '%s\xa0--',
         },
     },
 
